@@ -1,0 +1,87 @@
+.navbar{
+    background-color: #f15c2b;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+.navbar a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    float: left;
+    padding: 14px 20px;
+}
+main {
+    background-color: #BEA93E;
+    color: #313B41;
+    padding: 5px 20px;
+}
+#milktea{
+    padding: 0 10px;
+    color: #313B41;
+}
+.drinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.image{
+    
+    display:  inline-block;
+}
+#footer{
+    margin: 0;
+}
+.left, .right{
+    background-color: #f15c2b;
+    text-align: justify;
+    color: #ffffff;
+}
+.left{
+    float: left;
+    width: 48.6%;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.right{
+    float: right;
+    width: 48.6%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 400px) {
+    .left, .right{
+        float: none;
+        width: 94.8%;
+        padding: 10px;
+        text-align: justify;
+    }
+    .navbar a{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px 5px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px){
+    .left, .right{
+        float: none;
+        width: 97.1%;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    .left, .right{
+        float: none;
+        width: 98%;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+}

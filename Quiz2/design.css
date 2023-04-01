@@ -1,0 +1,37 @@
+body {
+   box-sizing: border-box;
+   background-color: #1b1b1b;
+}
+.container {
+    border: 1px solid;
+    display: flexbox;
+    padding: 20 px;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    margin-bottom: 20px;
+    color: #f8f8ff;
+}
+.container input {
+    margin-bottom: 10px;
+}
+label {
+    margin: 0 20px;
+}
+#btn {
+    color: #1b1b1b;
+    border: none;
+    padding: 5px 15px;
+    margin: 10px;
+}
+#btn:hover {
+    background-color: rgb(122, 198, 122);
+    color: black;
+}
+.answer-box {
+    border: 1px solid;
+    padding: 0 20px;
+    width: 30%;
+    margin: 0 auto;
+    color: #f8f8ff;
+}
